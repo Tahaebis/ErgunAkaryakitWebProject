@@ -1,88 +1,9 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!-- mobile menu -->
-<div class="mobile_logo_area">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="mobilemenu_con">
-                    <div class="mobile_menu_logo text-center">
-                        <a href="index.html" title="starntile">
-                            <img src="assets/images/logo1.png" alt="starntile">
-                        </a>
-                    </div>
-                    <div class="mobile_menu_option">
-                        <div class="mobile_menu_o mobile_opicon">
-                            <i class="icofont-navigation-menu openclass"></i>
-                        </div>
-                        <div class="mobile_menu_inner mobile_p">
-                            <div class="mobile_menu_content">
-                                <div class="mobile_menu_logo text-center">
-                                    <a href="index.html" title="starntile">
-                                        <img src="assets/images/logo1.png" alt="starntile">
-                                    </a>
-                                </div>
-                                <div class="menu_area mobile-menu">
-                                    <nav class="starntile_menu">
-                                        <ul class="sub-menu">
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Ana Sayfa</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index.html">test1</a></li>
-                                                    <li><a href="video_page.html">test2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Service</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="service.html">Service</a></li>
-                                                    <li><a href="heavy_equipment.html">Heavy Equipment</a></li>
-                                                    <li><a href="underground_mining.html">Underground Mining</a></li>
-                                                    <li><a href="coal_mining_machine.html">Coal Mining Machine</a></li>
-                                                    <li><a href="extraction_worker.html">Extraction Worker</a></li>
-                                                    <li><a href="mining_exploration.html">Mining & Exploration</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Pages</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="team.html">Team</a></li>
-                                                    <li><a href="pricing.html">Pricing</a></li>
-                                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                                    <li><a href="faq.html">faq</a></li>
-                                                    <li><a href="our_clients.html">Our Clients</a></li>
-                                                    <li><a href="progress_bar.html">Progress Bar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Blog</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_left_sidebar.html">Blog Left Sidebar</a></li>
-                                                    <li><a href="blog_right_sidebar.html">Blog Right Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="mobile_menu_o mobile_cicon">
-                                    <i class="icofont-close closeclass"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mobile_overlay"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Mobile Menu -->
 <div class="witr_swiper_area">
     <div class="swiper-container swiper_active">
         <div class="swiper-wrapper">
@@ -90,8 +11,8 @@
             <div class="swiper-slide d1 t1 m1 witr_swiper_height" style="background-image:url(assets/images/slider1.jpg);">
                 <div class="witr_sw_text_area text-left">
                     <div class="witr_swiper_content">
-                        <h2>ERGÜN AKARYAKIT</h2>
-                        <h3>LTD. ŞTİ.</h3>
+                        <h2>Best Dream Oiler</h2>
+                        <h3>Station Point.</h3>
                         <p>
                             There are many variations words passages of Ipsum don't
                             available, but the majority.
@@ -122,7 +43,9 @@
             <div class="col-lg-12">
                 <div class="witr_section_title">
                     <div class="witr_section_title_inner text-center">
-                        <h3>FAALİYETLERİMİZ</h3>
+                        <h2>EXPLOR FEATURES</h2>
+                        <h3>We Started Coal Mining</h3>
+                        <h1>Company For You</h1>
                     </div>
                 </div>
             </div>
@@ -136,19 +59,20 @@
             <div class="col-lg-4 col-md-6">
                 <div class="witr_feature_13 sub-border-2 all_feature_color text-left">
                     <div class="sub-item ">
-                        <img src="images/akaryakıtikon.png" alt="image">
-                        <br />
-                        <h1 class="mb-3">Akaryakıt İstasyonu</h1>
+                        <img src="assets/images/icon1.png" alt="image">
+                        <h3><a href="#">Explore the features</a></h3>
+                        <h2>Maintenance Service </h2>
                         <p>Orci varius natoque penatibus etagnis dis parturient montes, nascetur iculus tellus mi placerat sapien. </p>
                     </div>
                 </div>
             </div>
             <!-- 2 single feature -->
             <div class="col-lg-4 col-md-6">
-                <div class="witr_feature_13 sub-border-2 all_feature_color text-left">
+                <div class="witr_feature_13 sub-border-2 all_feature_color text-left fea_midd">
                     <div class="sub-item ">
-                        <img src="images/araçyıkamaikon.png" alt="image">
-                        <h2>7/24 Araç Yıkama</h2>
+                        <img src="assets/images/icon2.png" alt="image">
+                        <h3><a href="#">Explore the features</a></h3>
+                        <h2>Public Fuel Stations</h2>
                         <p>Orci varius natoque penatibus etagnis dis parturient montes, nascetur iculus tellus mi placerat sapien. </p>
                     </div>
                 </div>
@@ -157,8 +81,9 @@
             <div class="col-lg-4 col-md-6">
                 <div class="witr_feature_13 sub-border-2 all_feature_color text-left">
                     <div class="sub-item ">
-                        <img src="images/store-icon-design-symbol-market-retail-building-storefront-for-ecommerce-free-vector.jpg" alt="image">
-                        <h2>7/24 Market</h2>
+                        <img src="assets/images/icon3.png" alt="image">
+                        <h3><a href="#">Explore the features</a></h3>
+                        <h2>Gas Pump Nemo Vole</h2>
                         <p>Orci varius natoque penatibus etagnis dis parturient montes, nascetur iculus tellus mi placerat sapien. </p>
                     </div>
                 </div>
@@ -170,51 +95,51 @@
 <div class="st_ab_area">
     <div class="container">
         <div class="row">
-            @* <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="ab_img">
                     <img src="assets/images/about.jpg" alt="image">
                 </div>
-            </div> *@
-            <div class="col-lg-12 col-md-6 witr_all_pd0">
+            </div>
+            <div class="col-lg-6 col-md-6 witr_all_pd0">
                 <div class="ab_content">
                     <div class="witr_section_title">
                         <div class="witr_section_title_inner text-left">
-                            <h3>Ergün Akaryakıt'a Hoşgeldiniz!</h3>
-                            <p class="font-weight-bold">
-                                Afyonkarahisar'ın Bolvadin İlçesinde 2010 yılından beri faaliyette olan tesisimiz, Bolvadin-Çobanlar yolu 2.Km üzerinde buluunmaktadır.
-                                Tesisimiz 7/24 Açık olup hizmet vermektedir.
+                            <h2>EXPLOR FEATURES </h2>
+                            <h3>Join The New Innovation With Technical Workforce</h3>
+                            <p>
+                                Becididunt ut labore et dolore magna aliqua dnim veniam, quis nos trud exe
+                                laboris nisi ut aliquip volutpat quis in semper qui dolorem ipsum quia dolor
+                                sit amet consectetur adipisci velit sed quia non numquam eius modi tempo
+                                ra incidunt finibus quisque pellentesque metus.
                             </p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12">
+                        <div class="col-lg-6 col-md-12">
                             <div class="witr_text_widget">
                                 <div class="witr_text_widget_inner">
-                                    
+                                    <h2>Our Facility</h2>
+                                    <p>Fugit nemo quia consequuntur aspe magni dolores</p>
                                     <div class="witr_widget_list">
                                         <ul>
                                             <li>
                                                 <span class="witr_list_icon"><i class="fas fa-check-circle"></i></span>
-                                                <span class="witr_list_text font-weight-bold">Akaryakıt İstasyonu</span>
+                                                <span class="witr_list_text">Testing for Traces Impurities.</span>
                                             </li>
                                             <li>
                                                 <span class="witr_list_icon"><i class="fas fa-check-circle"></i></span>
-                                                <span class="witr_list_text font-weight-bold">7/24 Market</span>
+                                                <span class="witr_list_text">In Vitro Testing for Cosmetics.</span>
                                             </li>
                                             <li>
                                                 <span class="witr_list_icon"><i class="fas fa-check-circle"></i></span>
-                                                <span class="witr_list_text font-weight-bold">7/24 Araç Yıkama</span>
-                                            </li>
-                                            <li>
-                                                <span class="witr_list_icon"><i class="fas fa-check-circle"></i></span>
-                                                <span class="witr_list_text font-weight-bold">Mescit ve Dinlenme Alanı</span>
+                                                <span class="witr_list_text">The serves a seamless exten.</span>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                      @*   <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-6 col-md-12">
                             <div class="coun_inner">
                                 <div class="witr_counter_single all_counter_color">
                                     <div class="witr_counter_number_inn">
@@ -231,7 +156,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> *@
+                        </div>
                     </div>
                 </div>
             </div>
@@ -239,7 +164,7 @@
     </div>
 </div>
 <!-- service area -->
-@* <div class="st_ser_area">
+<div class="st_ser_area">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -250,8 +175,8 @@
                         <h1>This Company</h1>
                     </div>
                 </div>
-            </div> *@
-         @*    <!-- 1 single service -->
+            </div>
+            <!-- 1 single service -->
             <div class="col-lg-4 col-md-6">
                 <div class="witr_service2 service_overflow_inherit all_service2_color">
                     <div class="witr_service2_image">
@@ -307,9 +232,9 @@
             </div>
         </div>
     </div>
-</div> *@
+</div>
 <!-- testimonial area -->
-@* <div class="st_test_area">
+<div class="st_test_area">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -464,9 +389,9 @@
             </div>
         </div>
     </div>
-</div> *@
+</div>
 <!-- project area -->
-@* <div class="st_proj_area">
+<div class="st_proj_area">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -587,9 +512,9 @@
             </div>
         </div>
     </div>
-</div> *@
+</div>
 <!-- team area -->
-@* <div class="st_team_area">
+<div class="st_team_area">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -678,9 +603,9 @@
             </div>
         </div>
     </div>
-</div> *@
+</div>
 <!-- brand area css -->
-@* <div class="mc_brand_area">
+<div class="mc_brand_area">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -727,7 +652,7 @@
             </div>
         </div>
     </div>
-</div> *@
+</div>
 <!-- choose area -->
 <div class="st_chose_area">
     <div class="container">
@@ -736,7 +661,9 @@
                 <div class="chose_left">
                     <div class="witr_section_title">
                         <div class="witr_section_title_inner text-left">
-                            <h3>Neden Bizi Tercih Etmelisiniz?</h3>
+                            <h2>WHY CHOOSE US  </h2>
+                            <h3>A Right Choice that Makes the Difference to Others</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                         </div>
                     </div>
                     <!-- single item -->
@@ -751,10 +678,10 @@
                                     </div>
                                     <div class="em-service-inner">
                                         <div class="em-service-title">
-                                            <h3>Uygun Fiyat Garantisi</h3>
+                                            <h3>Best Quality Services </h3>
                                         </div>
                                         <div class="em-service-desc">
-                                          
+                                            <p>Lorem Ipsum is simply free text available in your not dummy text of the printing and typesetting industry. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -773,10 +700,10 @@
                                     </div>
                                     <div class="em-service-inner">
                                         <div class="em-service-title">
-                                            <h3>Güvenilir Marka Sonsuz Kalite</h3>
+                                            <h3>Standards of Oiled</h3>
                                         </div>
                                         <div class="em-service-desc">
-                                            
+                                            <p>Lorem Ipsum is simply free text available in your not dummy text of the printing and typesetting industry. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -793,9 +720,9 @@
                             <img src="assets/images/icon6.png" alt="image">
                         </div>
                         <div class="witr_counter_number_inn">
-                            <h3 class="counter">13</h3>
+                            <h3 class="counter">86</h3>
                             <span>+</span>
-                            <h4>Yılı Aşkın Deneyim </h4>
+                            <h4>Years Experineces </h4>
                         </div>
                     </div>
                     <!-- 2 single item -->
@@ -804,9 +731,9 @@
                             <img src="assets/images/icon8.png" alt="image">
                         </div>
                         <div class="witr_counter_number_inn">
-                            <h3 class="counter">10</h3>
+                            <h3 class="counter">25</h3>
                             <span>+</span>
-                            <h4>Marka Anlaşması </h4>
+                            <h4>Years Experineces </h4>
                         </div>
                     </div>
                     <!-- 3 single item -->
@@ -815,9 +742,9 @@
                             <img src="assets/images/icon9.png" alt="image">
                         </div>
                         <div class="witr_counter_number_inn">
-                            <h3 class="counter">100</h3>
-                            <span>%</span>
-                            <h4>Kalite ve Güven </h4>
+                            <h3 class="counter">59</h3>
+                            <span>+</span>
+                            <h4>Years Experineces </h4>
                         </div>
                     </div>
                     <!-- 4 single item -->
@@ -826,9 +753,9 @@
                             <img src="assets/images/icon11.png" alt="image">
                         </div>
                         <div class="witr_counter_number_inn">
-                            <h3 class="counter">100</h3>
-                            <span>&</span>
-                            <h4>Ücret İadesi </h4>
+                            <h3 class="counter">99</h3>
+                            <span>+</span>
+                            <h4>Years Experineces </h4>
                         </div>
                     </div>
                 </div>
@@ -853,7 +780,8 @@
                 <div class="faq_content">
                     <div class="witr_section_title">
                         <div class="witr_section_title_inner text-left">
-                            <h3>Sıkça Sorulan Sorular</h3>
+                            <h2>OUR FAQ</h2>
+                            <h3>Frequently Asked Questions?</h3>
                         </div>
                     </div>
                     <div class="accordion_area">
@@ -863,11 +791,11 @@
                                     <div class="card-header witr_ac_card">
                                         <a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_f099384">
                                             <i class=""></i>
-                                            Aracıma yanlış yakıt dolumu gerçekleşti ne yapmalıyım?
+                                            01. Do You Need A Business Service?
                                         </a>
                                     </div>
                                     <div id="collapse_f099384" class="collapse ac_s_padding active show" data-parent="#accordion">
-                                        <p>Yanlış yakıt doldurma işlemini akaryakıt istasyonunda yapan görevli ve dolayısıyla istasyon sorumludur. İstasyonda verilen fişin bu yüzden saklanması ve yapılan hatalı işlemin kanıtlanması zorunludur.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
                                     </div>
                                 </div>
                                 <!-- card -->
@@ -875,11 +803,11 @@
                                     <div class="card-header witr_ac_card">
                                         <a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_99261ce">
                                             <i class=""></i>
-                                            Dizel yakıt kaç derecede yanar?
+                                            02. Business Service A Scam?
                                         </a>
                                     </div>
                                     <div id="collapse_99261ce" class="collapse ac_s_padding  " data-parent="#accordion">
-                                        <p>Dizel yakıtın parlama noktaları 52 ve 96 °C (126 ve 205 °F) arasında değişmektedir. Dizel, sıkıştırmalı ateşlemeli bir motorda kullanım için uygundur.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
                                     </div>
                                 </div>
                                 <!-- card -->
@@ -887,11 +815,11 @@
                                     <div class="card-header witr_ac_card">
                                         <a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_add4c8f">
                                             <i class=""></i>
-                                            Soğuk havada dizel yakıt donar mı?
+                                            03. Most Out Of Your Business Service?
                                         </a>
                                     </div>
                                     <div id="collapse_add4c8f" class="collapse ac_s_padding" data-parent="#accordion">
-                                        <p> Dizel motor, sıcaklık -40 derecenin altına düştüğünde donar. Dizel yakıt, dizel motorla aynı sıcaklıkta donmaz.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
                                     </div>
                                 </div>
                                 <!-- card -->
@@ -899,11 +827,11 @@
                                     <div class="card-header witr_ac_card">
                                         <a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_d7754e9">
                                             <i class=""></i>
-                                            Dizel sistem temizleyici yakıt katkısı işe yarar mı ?
+                                            04. The Sound Of Business Service?
                                         </a>
                                     </div>
                                     <div id="collapse_d7754e9" class="collapse ac_s_padding" data-parent="#accordion">
-                                        <p>Özellikle de yüksek basınca ve düşük kükürde sahip olan bu katkılar, egzoz emisyonlarının gelişmesine ve iyileşmesine yardımcı olur. İlk çalışma esnasında koku ve duman çıkışını azaltır. Yakıt sisteminde ve yanma odasında toz ve birikime engel olur.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.</p>
                                     </div>
                                 </div>
                             </div>
@@ -919,24 +847,65 @@
     <div class="container">
         <div class="row">
             <!-- 1 single circle -->
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="witr_circle_area">
                     <div class="witr_cp_class witr_cr1">
-                        <span class="witr_cir_text">100%</span>
+                        <span class="witr_cir_text">83%</span>
                     </div>
                     <div class="witr_circle_title">
-                        <h3>Müşteri Memnuniyeti</h3>
+                        <h3>Happy Clients</h3>
                     </div>
                 </div>
             </div>
             <!-- 2 single circle -->
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="witr_circle_area">
                     <div class="witr_cp_class witr_cr2">
-                        <span class="witr_cir_text">100%</span>
+                        <span class="witr_cir_text">93%</span>
                     </div>
                     <div class="witr_circle_title">
-                        <h3>Uygun Fiyat Garantisi</h3>
+                        <h3>Factory Business</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 single circle -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_circle_area">
+                    <div class="witr_cp_class witr_cr3">
+                        <span class="witr_cir_text">73%</span>
+                    </div>
+                    <div class="witr_circle_title">
+                        <h3>Country Cover</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 single circle -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_circle_area">
+                    <div class="witr_cp_class witr_cr1">
+                        <span class="witr_cir_text">85%</span>
+                    </div>
+                    <div class="witr_circle_title">
+                        <h3>Project Done</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- video area -->
+<div class="st_video_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="video-part">
+                    <div class="video-overlay witr_all_color_v">
+                        <div class="video-item witr_none_before text-center">
+                            <a class="tx_svd_icon video-popup video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg">
+                                <i class="icofont-ui-play"></i>
+                            </a>
+                            <h3>Watch Video This Play </h3>
+                        </div>
                     </div>
                 </div>
             </div>

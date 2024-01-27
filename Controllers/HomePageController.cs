@@ -2,9 +2,9 @@
 
 namespace ErgunAkaryakitWebProject.Controllers
 {
-    public class ServiceController : Controller
+    public class HomePageController : Controller
     {
-        public IActionResult Services()
+        public IActionResult Index()
         {
             return View();
         }

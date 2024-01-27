@@ -408,15 +408,15 @@
 			var witr_cp = $('.witr_cr1');
 				witr_cp.circleProgress({
 					startAngle: -Math.PI / 4 * 3,
-					value: 0.83,
+					value: 1,
 					size: 150,
 					lineCap: 'round',
 					fill: {  gradient: ["#E53E29", "#E53E29"]}
 				});
 			 var witr_cp = $('.witr_cr2');
 				witr_cp.circleProgress({
-					startAngle: -Math.PI / 4 * 3,
-					value: 0.93,
+					startAngle: -Math.PI / 4 * 4,
+					value: 1,
 					size: 150,
 					lineCap: 'round',
 					fill: {  gradient: ["#E53E29", "#E53E29"]}

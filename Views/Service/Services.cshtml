@@ -1,0 +1,293 @@
+﻿
+@{
+    ViewData["Title"] = "Services";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 txtc  text-center ccase">
+                <div class="brpt">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="breadcumb-inner">
+                    <ul>
+                        <li>You here! <i class="icofont-thin-right"></i></li>
+                        <li><a href="#">Home</a></li>
+                        <li><i class="icofont-thin-right"></i></li>
+                        <li><span class="current">Portfolio</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End breadcumb area -->
+<div class="port_area">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="witr_section_title">
+                    <div class="witr_section_title_inner text-center">
+                        <h2>Our Gallery</h2>
+                        <h3>Our Best  Gallery</h3>
+                    </div>
+                </div>
+                <div class="clearfix row kicuakta">
+                    <div class="col-md-12">
+                        <div class="portfolio_nav wittr_pfilter_menu">
+                            <ul id="filter" class="filter_menu ">
+                                <li class="current_menu_item" data-filter="*">Tüm Ürünler</li>
+                                <li data-filter=".business">Motor Yağları</li>
+                                <li data-filter=".developer">Madeni Yağlar</li>
+                                <li data-filter=".management">Hidrolik Yağları</li>
+                                <li data-filter=".marketing">Cam Suları</li>
+                               @*  <li data-filter=".photography">Photography</li> *@
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pstyle2">
+                    <div class="row portfolio_active" id="em_load">
+                        <!-- 1 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 developer witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-08.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 1</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Motor Yağları
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 business witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-07.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 2</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Madeni Yağlar
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 photography witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-06.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 3</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Hidrolik Yağları
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 marketing witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-05.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 4</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Cam Suları
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 management witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-04.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 5</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Management
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 developer witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-03.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 6</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Developer
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 7 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 business witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-02.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 7</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Business
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 8 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 management witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-01.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 8</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Management
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 9 single portfolio -->
+                        <div class="col-lg-4 eportfolio_item grid-item col-md-6 col-xs-12 col-sm-12 marketing witr_all_mb_30">
+                            <div class="single_protfolio">
+                                <div class="prot_thumb">
+                                    <img src="assets/images/blog-04.jpg" alt="image">
+                                    <div class="prot_content em_port_content">
+                                        <div class="prot_content_inner">
+                                            <div class="picon">
+                                                <a href="project_information.html"><i class="icofont-link"></i></a>
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" data-gall="gall-video" href="https://youtu.be/BS4TUd7FJSg">
+                                                    <i class="icofont-youtube-play"></i>
+                                                </a>
+                                            </div>
+                                            <div class="porttitle_inner">
+                                                <h3><a href="#">Demo Media Title 9</a></h3>
+                                                <p>
+                                                    <span class="category-item-p">
+                                                        Marketing
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer area -->
